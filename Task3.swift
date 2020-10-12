@@ -23,7 +23,7 @@ for i in 0..<numbers.count
     flag = false
     for j in 0..<numbers.count
     {   
-        if numbers[i] == numbers[j] && i != j{ 
+        if numbers[i] != numbers[j] && i != j{ 
                 flag = true 
                 
             }
